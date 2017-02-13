@@ -1,5 +1,9 @@
 # Modern Project Boilerplate
 
+## bI?
+
+Boilerplate with basically configured babel, eslint and npm-scripts for quick start of a new project development.
+
 ## Features
 - babel
 - eslint
