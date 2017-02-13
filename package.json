@@ -1,6 +1,6 @@
 {
   "name": "modern-project-boilerplate",
-  "version": "0.2.1",
+  "version": "0.3.0",
   "description": "Boilerplate project with modern dev-tools",
   "keywords": [
     "boilerplate",
@@ -8,15 +8,18 @@
     "babel",
     "eslint"
   ],
-  "main": "dist/index.js",
   "author": "Aleksandr Snov <snov.contact@gmail.com>",
   "license": "MIT",
+  "main": "dist/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Noviel/modern-project-boilerplate.git"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "eslint src",
     "build": "babel src --out-dir dist"
   },
-  "repository": "YOUR REPOSITORY HERE",
   "devDependencies": {
     "babel-cli": "^6.22.2",
     "babel-eslint": "^7.1.1",
