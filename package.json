@@ -1,6 +1,6 @@
 {
   "name": "modern-project-boilerplate",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "Boilerplate project with modern dev-tools",
   "keywords": [
     "boilerplate",
@@ -18,7 +18,10 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "eslint src",
-    "build": "babel src --out-dir dist"
+    "build": "babel src --out-dir dist",
+    "major-release": "npm --no-git-tag-version version major && npm publish",
+    "minor-release": "npm --no-git-tag-version version minor && npm publish",
+    "patch-release": "npm --no-git-tag-version version patch && npm publish"
   },
   "devDependencies": {
     "babel-cli": "^6.22.2",
