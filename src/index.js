@@ -2,6 +2,8 @@
 
 const f = (x) => x + '!';
 
+/* eslint-disable no-unused-vars */
 const b = 1;
+/* eslint-enable no-unused-vars */
 
 console.log(`I am linted by eslint and transpiled by babel ${f(', cool')}`);
